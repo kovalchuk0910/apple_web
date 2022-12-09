@@ -1,0 +1,51 @@
+.menu {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+    margin-top: -5px;
+}
+
+.menuContent {
+    margin-top: 10px;
+    width: 80%;
+}
+
+.menuInput {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #424245;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+.menuInput input {
+    width: 95%;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #1D1D1F;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    height: 7%;
+    font-size: 18px;
+    border-bottom: 1px solid #424245;
+}
+.menuItem a {
+    text-decoration: none;
+    color: #9F9F9F;
+    transition: all ease 0.3s;
+}
+.menuItem a:hover {
+    color: white;
+}

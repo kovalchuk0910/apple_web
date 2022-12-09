@@ -1,0 +1,171 @@
+/*List*/
+.list {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 7%;
+}
+.listItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.listItem:hover .listItemTitle {
+    color: #3888D7;
+}
+
+.listItemTitle {
+    font-size: 11px;
+    margin-top: 5px;
+    transition: all ease 0.3s;
+}
+
+.listItem img {
+    width: 85%;
+}
+
+
+/*MacBook Pro*/
+.macBookPro {
+    background-color: black;
+    color: white;
+    padding-top: 90px;
+}
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.macBookProImg img {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.new {
+    color: #F56300;
+    margin-bottom: 20px;
+}
+.title {
+    font-size: 45px;
+}
+.desc {
+    font-size: 25px;
+}
+.price {
+    margin-top: 30px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 25%;
+}
+.btns button{
+    width: 35%;
+    background-color: #006EDB;
+    color: white;
+    padding: 7px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btns a {
+    color: #006EDB;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btns a:hover {
+    text-decoration: underline;
+}
+
+/*MacBook Air*/
+.macBookAir {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.macBookAirImg {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.macBookAirImg img {
+    width: 400px;
+}
+
+/*Compare*/
+.compare {
+    display: flex;
+    justify-content: space-around;
+}
+.compareTitle {
+    display: flex;
+    justify-content: center;  
+}
+.compareTitle h1 {
+    font-size: 27px;
+}
+
+.compareMacAir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.compareMainInfo {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.compareTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+.compareBtnBuy {
+    width: 20%;
+    background-color: #006EDB;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.compareMoreInfo {
+    color: #006EDB;
+    text-decoration: none;
+}
+.compareMoreInfo:hover {
+    text-decoration: underline;
+}
+
+.compareDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+    padding: 20px;
+}
+.compareDetailsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.compareDetailsItem img {
+    width: 50px;
+}
